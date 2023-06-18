@@ -1,0 +1,70 @@
+.navbar-brand{
+    font-family: 'Playfair Display',serif;
+    font-weight: 500;
+    letter-spacing: 0em;
+}
+.navigationbar{
+    height: 60px;
+}
+.navbar{
+    height: 60px;
+}
+ .intro{
+    height: 800px;
+   
+    background: linear-gradient(300deg,#526D82,#27374D,black);
+  
+     background-size: 180% 180%;
+     /* this are more than 100% because it is intended for overflow */
+    animation:gradient-animation 10s ease-in infinite;     
+  
+
+} 
+.mainpage{
+padding-top: 5.5rem!important;
+}
+.boyimage{
+    border-radius: 100%;
+   
+
+    transition-property:transform;
+    transition-duration: 0.7s;
+ 
+}
+.boyimage:hover{
+    transform: scale(1.5);
+}
+
+.whiteheading{
+    color: white!important;
+}
+@keyframes gradient-animation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+#aboutme{
+    height: 800px;
+    background: linear-gradient(300deg,#00bfff,#ff4c68,#ef8172);
+  
+     background-size: 180% 180%;
+     /* this are more than 100% because it is intended for overflow */
+    animation:gradient-animation 12s ease-in infinite;     
+  
+}
+.lastfooter{
+  
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+.lastfooter .text-body-container{
+color: 3em!important;
+}
+
